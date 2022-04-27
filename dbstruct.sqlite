@@ -1,0 +1,10 @@
+CREATE TABLE  "users" (
+  "id" INTEGER NOT NULL ,
+  "user" varchar(1) ,
+  "pass" varchar(256) ,
+  "regcode" varchar(256),
+  "enable" INTEGER,
+  "cookie" varchar(256) ,
+  "name"	TEXT,
+  PRIMARY KEY ("id") 
+);
